@@ -15,8 +15,8 @@
     <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/bootstrap-combined.min.css" />
 
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/main.css" />
     {% if FEED_ALL_ATOM %}
@@ -26,6 +26,7 @@
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
     {% endif %}
 
+    {% if SHARETHIS_PUB_KEY %}
     <script type="text/javascript">var switchTo5x=true;</script>
     <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">
@@ -36,6 +37,7 @@
             hashAddressBar: false
         });
     </script>
+    {% endif %}
 </head>
 
 <body id="index">
