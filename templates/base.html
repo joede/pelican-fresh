@@ -59,10 +59,12 @@
                             <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                         {% endfor %}
                         {% endif %}
+                        {% if DISPLAY_CATEGORIES_ON_MENU %}
                         {% if not HIDE_CATEGORIES_FROM_MENU %}
                         {% for cat, null in categories %}
                             <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                         {% endfor %}
+                        {% endif %}
                         {% endif %}
                         </ul>
 
