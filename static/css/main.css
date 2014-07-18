@@ -123,10 +123,15 @@ blockquote {
   margin: 20px;
   font-style: normal;
   border: 0; }
-  blockquote p {
+blockquote p {
     font-size: 15px;
     margin-bottom: 1em;
-    font-weight: normal; }
+    font-weight: normal;
+    text-align: justify; font-style: italic;
+    border-left:10px solid #09c; background:#F7F7F9;
+    margin:1.5em 10px; padding:0.1em 10px; padding-top:0.5em; padding-bottom:0.5em;
+    quotes:"\201C""\201D""\2018""\2019";
+}
 
 header, section, footer, aside, nav, article, figure {
   display: block; }
