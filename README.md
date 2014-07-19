@@ -1,3 +1,21 @@
+# Reasons for the fork
+
+Fresh is a really nice theme. Since I'm playing with Pelican, I searched for a theme which fits my needs.
+I plan to use it for a blog in Englisch and for a blog in German. Therefore the labels shouldn't be in
+Englisch.
+
+Changes done (for now):
+
+* replaced some label of the article info with icons from *FontAwesome*.
+* replaced the icon for categories with *fa-folder*. Categories aren't tags.
+* made the all the CSS and font file local.
+* QUOTEs now are styled in italic with a blueish bar on the left.
+* the color of the font of the CODE markup is now blueish instead of red.
+* the font of the footer is smaller and brighter to looks less noticeable.
+
+And here starts the original README:
+
+
 # Fresh: a responsive Pelican theme that uses HTML5
 
 Fresh is a responsive [Pelican](http://getpelican.com) theme.
