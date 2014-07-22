@@ -12,6 +12,13 @@ Changes done (for now):
 * QUOTEs now are styled in italic with a blueish bar on the left.
 * the color of the font of the CODE markup is now blueish instead of red.
 * the font of the footer is smaller and brighter to looks less noticeable.
+* the entries for the section "Social" now uses the *FontAwesome* symbols. The
+  first entry of the SOCIAL list must now be the name of a charachter of the
+  *FontAwesome* set without the prefix `fa-`!
+* additional to the regular list of SOCIAL tuples, support for a list of triples
+  is added. Use `SOCIAL3` to define a list of *icon name*, *label* and *link*.
+  You can use either `SOCIAL` oder `SOCIAL3` or both.
+
 
 And here starts the original README:
 

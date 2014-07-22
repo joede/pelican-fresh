@@ -88,14 +88,23 @@
                 </ul>
             </div><!-- /.Links -->
     {% endif %}
-    {% if SOCIAL %}
+    {% if SOCIAL or SOCIAL3 %}
             <div>
                 <h2>Social</h2>
-                <ul>
-                {% for name, link in SOCIAL %}
-                    <li><a href="{{ link }}">{{ name }}</a></li>
+                {% if SOCIAL3 %}
+                <ul class="fa-ul">
+                {% for icon, name, link in SOCIAL3 %}
+                    <li><a href="{{ link }}"><i class="fa-li fa fa-{{ icon }}"></i> {{ name }}</a></li>
                 {% endfor %}
                 </ul>
+                {% endif %}
+                {% if SOCIAL %}
+                <p class="centered-social-nav">
+                    {% for name, link in SOCIAL %}
+                        <a href="{{ link }}"><i class="fa fa-{{ name }} social-badge"></i></a>
+                    {% endfor %}
+                </p>
+                {% endif %}
             </div><!-- /.social -->
     {% endif %}
     {% if TAG_CLOUD_STEPS %}

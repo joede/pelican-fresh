@@ -1,0 +1,40 @@
+
+.centered-social-nav {
+  text-align: center;
+  padding: 0; }
+  .centered-social-nav li {
+    display: inline; }
+  .centered-social-nav a {
+/* (jd) uncomment for a smooth transition
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; */
+    display: inline-block;
+    color: #113D8B;
+    text-decoration: none; }
+
+  .centered-social-nav a:hover {
+    color: #2F96B4; 
+/* (jd) uncomment to have a shadow
+    text-shadow: 0 0 12px #333333; */
+    }
+
+/*
+#social-nav-links {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em; }
+  #social-nav-links a {
+    margin: 0 6px;
+    padding: 3px; }
+
+#social-nav-services li {
+  margin: 6px; }
+*/
+
+.social-badge {
+  font-size: 36px;
+  width: 50px;
+  display: inline-block; }
+
