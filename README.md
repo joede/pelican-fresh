@@ -18,6 +18,9 @@ Changes done (for now):
 * additional to the regular list of SOCIAL tuples, support for a list of triples
   is added. Use `SOCIAL3` to define a list of *icon name*, *label* and *link*.
   You can use either `SOCIAL` oder `SOCIAL3` or both.
+* the date string inserted into the article infos is now no longer hard coded. It
+  supports localized date strings which uses `DATE_FORMATS` and `LOCALE`.
+
 
 
 And here starts the original README:

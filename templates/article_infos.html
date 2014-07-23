@@ -7,7 +7,7 @@
 
     <i class="fa fa-folder"></i> <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> | 
 
-    <i class="fa fa-calendar"></i> {{ article.date.strftime('%Y-%m-%d') }}
+    <i class="fa fa-calendar"></i> {{ article.locale_date }}
 
     {% if article.tags %}
         |
