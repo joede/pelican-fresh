@@ -1,6 +1,7 @@
 @import url("pygment.css");
 @import url(//fonts.googleapis.com/css?family=Overlock:400,700,900);
 @import url(//fonts.googleapis.com/css?family=PT+Mono);
+@import url(//fonts.googleapis.com/css?family=Droid+Sans);
 /*
  *  Name: Fresh
  *  Date: February 2013
@@ -12,7 +13,7 @@
 body {
   color: #333;
   font-size: 15px;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "DejaVu Sans", "Droid Sans", sans-serif;
   line-height: 22.5px;
   margin: 0;
   padding: 0;
@@ -24,41 +25,41 @@ a {
     color: #08c; }
 
 h1 {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
   font-size: 30px;
   line-height: 60px; }
 
 h2 {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
   font-size: 24px;
   color: #113D8B;
   line-height: 48px; }
 
 h3 {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
   font-size: 21.6px;
   color: #000;
   line-height: 43.2px; }
 
 h4 {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
   font-size: 19.44px;
   color: #000;
   line-height: 38.88px; }
 
 h5 {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
   font-size: 17.496px;
   color: #666;
   line-height: 34.992px; }
 
 h6 {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
   font-size: 15.7464px;
   color: #777;
@@ -94,7 +95,7 @@ ol {
   font-weight: bold; }
 
 .archive_row {
-  font-family: "Microsoft YaHei", Overlock, sans-serif; }
+  font-family: Overlock, sans-serif; }
   .archive_row .archive_year {
     color: #113D8B;
     font-size: 24px;

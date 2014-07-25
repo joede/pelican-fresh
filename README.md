@@ -20,7 +20,9 @@ Changes done (for now):
   You can use either `SOCIAL` oder `SOCIAL3` or both.
 * the date string inserted into the article infos is now no longer hard coded. It
   supports localized date strings which uses `DATE_FORMATS` and `LOCALE`.
-
+* All the tables in the content container now have there own style. The font list
+  for the body has changed to try *DejaVu Sans* first, and *Droid Sans* as second
+  choice.
 
 
 And here starts the original README:
