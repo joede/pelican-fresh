@@ -8,10 +8,9 @@ $h5size: $h4size * 9/10;
 $h6size: $h5size * 9/10;
 
 @import url("pygment.css");
-
 @import url(//fonts.googleapis.com/css?family=Overlock:400,700,900);
 @import url(//fonts.googleapis.com/css?family=PT+Mono);
-
+@import url(//fonts.googleapis.com/css?family=Droid+Sans);
 /*
  *  Name: Fresh
  *  Date: February 2013
@@ -24,7 +23,7 @@ $h6size: $h5size * 9/10;
 body {
   color: #333;
   font-size: $bodysize;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "DejaVu Sans", "Droid Sans", sans-serif;
   line-height: $bodysize * 1.5;
   margin: 0;
   padding: 0;
@@ -39,7 +38,7 @@ a {
 }
 
 @mixin headings {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   font-weight: bold;
 }
 
@@ -122,7 +121,7 @@ ol {
 }
 
 .archive_row {
-  font-family: "Microsoft YaHei", Overlock, sans-serif;
+  font-family: Overlock, sans-serif;
   .archive_year{
     color: #113D8B;
     font-size: $h2size;
