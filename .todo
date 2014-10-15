@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<todo version="0.1.20">
+    <title>
+        Joedes fork of Pelican-Fresh
+    </title>
+    <note priority="medium" time="1413397153">
+        update font and css of fontawesome.
+    </note>
+    <note priority="medium" time="1413397209">
+        change the language icon to the new fa-language symbol!
+    </note>
+</todo>
