@@ -22,8 +22,10 @@
     {% endif %}
 
     {% if DISQUS_SITENAME %}
+      {% if article.suppress_comments != "yes" %}
         |
         <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">comments</a>
+      {% endif %}
     {% endif %}
 
     {% import 'translations.html' as translations with context %}

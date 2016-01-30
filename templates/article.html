@@ -40,6 +40,11 @@
         {% endif %}
       </div><!-- /.entry-content -->
       {% if DISQUS_SITENAME %}
+      {% if article.suppress_comments == "yes" %}
+      <div class="comments">
+        <p>Comments disabled!</p>
+      </div>
+      {% else %}
       <div class="comments">
         <h2>Comments</h2>
         <div id="disqus_thread"></div>
@@ -51,7 +56,8 @@
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
         </script>
-      </div>
+       </div>
+      {% endif %}
       {% endif %}
 
     </article>
